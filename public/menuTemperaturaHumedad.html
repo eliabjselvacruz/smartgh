@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperatura/Humedad</title>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+  <body>
+
+    <div class="navbar-fixed">
+      <nav class="green accent-3">
+        <div class="nav-wrapper">
+          <div class="container">
+            <a href="#" class="brand-logo center">SMART GH</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="row">
+      <div class="col s6">
+        <div class="card">
+          <div class="card-image">
+            <img src="../img/pasto.jpg">
+            <span class="card-title">Ambiente</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>Control de temperatura y humedad del ambiente.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s6">
+        <div class="card">
+          <div class="card-image">
+            <img src="../img/pasto.jpg">
+            <span class="card-title">Bandejas</span>
+            <a class="btn-floating halfway-fab waves-effect waves-light green"><i class="material-icons">add</i></a>
+          </div>
+          <div class="card-content">
+            <p>Control de temperatura y humedad de las bandejas.</p>
+          </div>
+        </div>
+      </div>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        M.AutoInit();
+        var instance = M.Carousel.init({
+          fullWidth: true
+        });
+      });
+    </script>
+
+  </body>
+
+</html
